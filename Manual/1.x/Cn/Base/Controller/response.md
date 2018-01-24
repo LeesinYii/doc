@@ -59,6 +59,7 @@ $response()->withHeader('Content-type','application/json;charset=utf-8');
 该方法用于返回当前SessionResponse实例。注意，返回该实例的时候，不会自动执行session start。若有执行set方法，则会自动调用session start
 ```
 $response()->session()->set("test","value");
+2.x 暂时不支持该方法
 ```
 
 <script>
